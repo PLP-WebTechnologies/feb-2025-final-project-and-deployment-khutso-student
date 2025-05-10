@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Propery</title>
     <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="discovery.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="property.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,15 +25,29 @@
 
             <div class="navlinks-wrapper">
                 <a href="#">HOME</a>
-                <a href="#">ABOUT</a>
-                <a href="#">PROPERTY</a>
+                <a href="#about">ABOUT</a>
+                <a href="#property">PROPERTY</a>
                 <a href="#">SERVICES</a>
                 <a href="#">MORE</a>
             </div>
 
             <div class="contact-button-wrapper">
-                <a href="#">Contact us</a>
+                <a href="#contact">Contact us</a>
             </div>
+
+            <div class="mobile-menu-wrapper">
+                <div class="menu-icon-holder">
+                    <i class="fa-solid fa-caret-down" onclick="toggleDiv()"></i>
+                </div>
+            </div>
+        </div>
+
+        <div id="hidden-links" class="closed">
+            <a href="#home" class="link">HOME</a>
+            <a href="#about" class="link">ABOUT</a>
+            <a href="#property" class="link">PROPERTY</a>
+            <a href="#" class="link">SERVICES</a>
+            <a href="#contact" class="link">CONTACT</a>
         </div>
 
         <div class="inner-wrapper">
@@ -43,10 +62,383 @@
                 </div>
 
                 <div class="inner-home-buttons">
-                    <a href="#" class="view-btn">View</a>
-                    <a href="#" class="learn-btn">Learn More</a>
+                    <a href="#discovery" class="view-btn">View</a>
+                    <a href="#about" class="learn-btn">Learn More</a>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="bottom-right-wrapper">
+        <div class="header-title">
+            <h1>Who We Are</h1>
+        </div>
+
+        <div class="descriptive-sentance">
+            <p>We are passionate about helping you find your perfect propery match, with expert guidance and personalized service</p>
+        </div>
+
+        <div class="percentages-details">
+            <div class="percent-holder-wrapper">
+                <div class="percentage">
+                <p>80+</p>
+                </div>
+                <div class="percentage-content">
+                    <p>Properties Sold</p>
+                </div>
+            </div>
+
+            <div class="percent-holder-wrapper">
+                <div class="percentage">
+                <p>500+</p>
+                </div>
+                <div class="percentage-content">
+                    <p>Agent Houses</p>
+                </div>
+            </div>
+
+            <div class="percent-holder-wrapper">
+                <div class="percentage">
+                <p>2K+</p>
+                </div>
+                <div class="percentage-content">
+                    <p>Happy Clients</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="discovery" class="discovery-main-wrapper">
+        <div class="discovery-header-wrapper">
+            <div class="discovery-heading">
+                <h1>Discover Your Perfect <span>Propery Match</span></h1>
+            </div>
+
+            <div class="discovery-sub-heading">
+                <p>Your Propery journey starts here! Our website offers a seamless experience, from browsing listings to finding the perfect propery. With expert guidance and cutting-edge technology, we'll help you navigate the property market with confidence.</p>
+            </div>
+
+        </div>
+           
+        <div class="inner-discovery-wrapper">
+            <div class="discovery-left-wrapper">
+                <!-- <img src="images/Discovery right image.jpg" alt=""> -->
+
+                <div id="Love" class="heart-wrapper">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+
+                <div class="pricing-wrapper">
+                    <div class="first-price-content">
+                        <div class="price-holder">
+                            <h1>R1, 995 000</h1>
+                        </div>
+
+                        <div class="site-holder">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+
+                    <div class="second-price-content">
+                        <div class="features-wrapper">
+                            <ul>
+                                <li>Space Living Area</li>
+                                <li>Modern Kitchen</li>
+                                <li>Private Garden</li>
+                            </ul>
+                        </div>
+
+                        <div class="more-detail-wrapper">
+                            <div class="detail-wrapper">
+                                <div class="number">3</div>
+                                <div class="number-descr">Bedrooms</div>
+                            </div>
+
+                            <div class="detail-wrapper">
+                                <div class="number">2</div>
+                                <div class="number-descr">Bathrooms</div>
+                            </div>
+
+                            <div id="detail3" class="detail-wrapper">
+                                <div class="number">1</div>
+                                <div class="number-descr">Car garage</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="discovery-right-wrapper">
+                <div class="discovery-image-holder">
+                    <!-- <img src="images/Discovery 1.jpg" alt=""> -->
+
+                    <div id="Love1"  class="heart-wrapper">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+
+                <div id="image-holder2" class="discovery-image-holder">
+                    <!-- <img src="images/Discovery 2.jpg" alt=""> -->
+
+                    <div id="Love2"  class="heart-wrapper">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+
+                <!-- <div id="image-holder3" class="discovery-image-holder">
+                     <img src="images/Discovery 3.jpg" alt=""> -->
+
+                    <!-- <div id="Love3"  class="heart-wrapper">
+                        <i class="fa-regular fa-heart"></i>
+                    </div> -->
+                </div> 
+            </div>
+        </div>   
+    </div>
+
+    <div id="about" class="about-main-wrapper">
+        <div class="about-left-wrapper">
+            <div class="about-heading-wrapper">
+                <h1>About <span>Us</span></h1>
+            </div>
+
+            <div class="first-paragrap">
+                <p>We believe that finding the perfect property is more than just a transaction — it's a personal journey toward comfort, stability, and future growth. Whether you're searching for your dream home, a strategic investment, or your very first apartment, we are here to make that journey seamless and rewarding. Our platform combines cutting-edge technology with deep real estate expertise to connect you with verified listings, interactive tools, and personalized support every step of the way. We don’t just help you search — we help you discover a space where memories will be made, families will grow, and aspirations will be realized.</p>
+            </div>
+
+            <div class="second-paragraph-wrapper">
+                <p>With years of experience in the property market, our team is passionate about delivering value beyond bricks and mortar. We specialize in residential, commercial, and investment properties, carefully curated to match your lifestyle and financial goals. Whether you're buying, selling, or renting, our transparent process, expert advice, and intuitive design ensure a smooth, stress-free experience. We take pride in creating a platform where quality meets convenience — because you deserve more than just a place to live. You deserve a place to thrive, a space to belong, and a future built on solid ground.</p>
+            </div>
+        </div>
+
+        <div class="about-right-wrapper"></div>
+        
+    </div>
+
+    <div id="property" class="property-show-wrapper">
+        <div class="property-heading-wrapper">
+            <h1>Property <span>Showcase</span></h1>
+        </div>
+
+        <div class="search-wrapper">
+            <input type="text" placeholder="Search for property...">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <div class="slider-container">
+            <div class="slider" id="slider">
+              <div class="slide slide1">
+                <div class="slide-content-wrapper">
+                    <div class="slide-price">
+                        <h1>R2, 500 000</h1>
+                    </div>
+                    <div class="slider-details">
+                        <div class="details-wrapper">
+                            <div class="slide-number">4</div>
+                            <div class="slide-descr">Bedrooms</div>
+                        </div>
+
+                        <div class="details-wrapper">
+                            <div class="slide-number">2</div>
+                            <div class="slide-descr">Bathrooms</div>
+                        </div>
+
+                        <div id="detail-slider" class="details-wrapper">
+                            <div class="slide-number">1</div>
+                            <div class="slide-descr">Car garage</div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+              <div class="slide slide2">
+                <div class="slide-content-wrapper">
+                    <div class="slide-price">
+                        <h1>R3, 300 000</h1>
+                    </div>
+                    <div class="slider-details">
+                        <div class="details-wrapper">
+                            <div class="slide-number">5</div>
+                            <div class="slide-descr">Bedrooms</div>
+                        </div>
+
+                        <div class="details-wrapper">
+                            <div class="slide-number">3</div>
+                            <div class="slide-descr">Bathrooms</div>
+                        </div>
+
+                        <div id="detail-slider" class="details-wrapper">
+                            <div class="slide-number">2</div>
+                            <div class="slide-descr">Car garage</div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              
+              <div class="slide slide3">
+                <div class="slide-content-wrapper">
+                    <div class="slide-price">
+                        <h1>R1, 200 000</h1>
+                    </div>
+                    <div class="slider-details">
+                        <div class="details-wrapper">
+                            <div class="slide-number">3</div>
+                            <div class="slide-descr">Bedrooms</div>
+                        </div>
+
+                        <div class="details-wrapper">
+                            <div class="slide-number">1</div>
+                            <div class="slide-descr">Bathrooms</div>
+                        </div>
+
+                        <div id="detail-slider" class="details-wrapper">
+                            <div class="slide-number">2</div>
+                            <div class="slide-descr">Car garage</div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="slide slide4">
+                <div class="slide-content-wrapper">
+                    <div class="slide-price">
+                        <h1>R4, 500 000</h1>
+                    </div>
+                    <div class="slider-details">
+                        <div class="details-wrapper">
+                            <div class="slide-number">5</div>
+                            <div class="slide-descr">Bedrooms</div>
+                        </div>
+
+                        <div class="details-wrapper">
+                            <div class="slide-number">3</div>
+                            <div class="slide-descr">Bathrooms</div>
+                        </div>
+
+                        <div id="detail-slider" class="details-wrapper">
+                            <div class="slide-number">2</div>
+                            <div class="slide-descr">Car garage</div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="slide slide5">
+                <div class="slide-content-wrapper">
+                    <div class="slide-price">
+                        <h1>R700 000</h1>
+                    </div>
+                    <div class="slider-details">
+                        <div class="details-wrapper">
+                            <div class="slide-number">4</div>
+                            <div class="slide-descr">Bedrooms</div>
+                        </div>
+
+                        <div class="details-wrapper">
+                            <div class="slide-number">1</div>
+                            <div class="slide-descr">Bathrooms</div>
+                        </div>
+
+                        <div id="detail-slider" class="details-wrapper">
+                            <div class="slide-number">2</div>
+                            <div class="slide-descr">Car garage</div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="buttons">
+              <button onclick="prevSlide()">❮</button>
+              <button onclick="nextSlide()">❯</button>
+            </div>
+          </div>
+    </div>
+
+    <div id="contact" class="contact-main-wrapper">
+        <div class="inner-contact-wrapper">
+            <div class="left-contact-wrapper">
+                <div class="contact-heading">
+                    <h2>Contact Us</h2>
+                </div>
+
+                <div class="contact-paragraph">
+                    <p>Feel free to contact us any time. We will get back to youas soon as we can.</p>
+                </div>
+
+                <div class="form-wrapper">
+                    <form action="">
+                        <input type="text" placeholder="Name" required> <br> <br>
+                        <input type="email" placeholder="Email" required> <br> <br>
+                        <textarea name="message" id="message" placeholder="Message" required></textarea> <br> <br>
+                        <input id="submit-btn" type="submit" value="Send">
+                    </form>
+                </div>
+            </div>
+
+            <div class="right-contact-wrapper">
+                <div class="info-wrapper">
+                    <p>Info</p>
+                </div>
+
+                <div class="contact-icons-wrapper">
+                    <div class="icon-holder"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="icon-detail-wrapper"><p>info@property.co.za</p></div>
+                </div>
+
+                <div class="contact-icons-wrapper">
+                    <div class="icon-holder"><i class="fa-solid fa-phone"></i></div>
+                    <div class="icon-detail-wrapper"><p>+27 84 855 5884</p></div>
+                </div>
+
+                <div class="contact-icons-wrapper">
+                    <div class="icon-holder"><i class="fa-solid fa-location-dot"></i></div>
+                    <div class="icon-detail-wrapper"><p>Pretoria, South Africa</p></div>
+                </div>
+
+                <div class="contact-icons-wrapper">
+                    <div class="icon-holder"><i class="fa-solid fa-clock"></i></div>
+                    <div class="icon-detail-wrapper"><p>09:00 - 16:00</p></div>
+                </div>
+
+                <div class="social-media-wrapper">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-main-wrapper">
+        <div class="footer-logo-wrapper">
+            <div class="logo-wrapper">
+                <a id="footer-logo" href="#">PROPERTY</a>
+            </div>
+        </div>
+
+        <div class="footer-links-wrapper">
+              <div class="navlinks-wrapper">
+                <a id="footer-links" href="#">HOME</a>
+                <a id="footer-links" href="#about">ABOUT</a>
+                <a id="footer-links" href="#property">PROPERTY</a>
+                <a id="footer-links" href="#">SERVICES</a>
+                <a id="footer-links" href="#contact">CONTACT</a>
+            </div>
+        </div>
+
+        <div class="footer-media-wrapper">
+            <div class="social-media-wrapper">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+        </div>
+
+        <div class="footer-paragraph-wrapper">
+            <footer>
+                <p>&copy; 2025 Property. All rights reserved.</p>
+            </footer>
+
         </div>
     </div>
     <script src="main.js"></script>

@@ -1,0 +1,136 @@
+.about-main-wrapper {
+    background-color: #0a0600;
+    width: 99%;
+    height: 600px;
+    margin-top: 80px;
+    border-radius: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 20px;
+}
+
+.about-left-wrapper {
+    /* background-color: #ffffff2e; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0px;
+}
+
+.about-heading-wrapper {
+    /* background-color: #ffffff47; */
+    height: 55px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.about-heading-wrapper h1 {
+    font-size: 40px;
+    color: #fff;
+}
+
+.about-heading-wrapper span {
+    color: #a96506;
+    font-weight: 500;
+}
+
+.first-paragrap {
+    /* background-color: #fff; */
+    height: 120px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.first-paragrap p {
+    font-size: 14px;
+    text-align: justify;
+    color: #fff;
+
+}
+
+.second-paragraph-wrapper {
+    /* background-color: #fff; */
+    height: 120px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.second-paragraph-wrapper p {
+    font-size: 14px;
+    text-align: justify;
+    color: #fff;
+}
+
+.about-right-wrapper {
+    background-color: #ffffff2e;
+    width: 50%;
+    height: 100%;
+    border-radius: 30px;
+    background-image: url(images/About\ Image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+@media screen and (max-width: 1173px) {
+
+    .first-paragrap {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media screen and (max-width: 875px) {
+        .about-main-wrapper {
+        height: auto;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+        .first-paragrap {
+     margin-bottom: 0px;
+    }
+
+      .about-left-wrapper {
+        height: auto;
+        margin-bottom: 20px;
+        width: 90%;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+      .about-right-wrapper {
+        height: 500px;
+        width: 90%;
+        margin-top: 20px;
+    }
+}
+
+
+@media screen and (max-width: 665px) {
+    .first-paragrap {
+    margin-bottom: 0px;
+    height: auto;
+    }
+
+    .second-paragraph-wrapper {
+        height: auto;
+    }
+
+    .about-heading-wrapper {
+        width: auto;
+    }
+}

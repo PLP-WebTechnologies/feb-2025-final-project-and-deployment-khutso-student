@@ -41,29 +41,6 @@ react3.addEventListener('click', function() {
 })
 
 
-const slider = document.getElementById('slider');
-const slides = document.querySelectorAll('.slide');
-let currentIndex = 0;
-
-function showSlide(index) {
-  if (index < 0) index = slides.length - 1;
-  if (index >= slides.length) index = 0;
-  slider.style.transform = `translateX(-${index * 100}%)`;
-  currentIndex = index;
-}
-
-function nextSlide() {
-  showSlide(currentIndex + 1);
-}
-
-function prevSlide() {
-  showSlide(currentIndex - 1);
-}
-
-// Auto slide every 5 seconds
-setInterval(nextSlide, 5000);
-
-
 
 // nav link active click
 document.querySelector('.navlink-wrapper').addEventListener('click', (e) => {
@@ -72,12 +49,20 @@ document.querySelector('.navlink-wrapper').addEventListener('click', (e) => {
       links.forEach((link) => link.classList.remove('active'));
       e.target.classList.add('active');
     }
-  });
+});
 
 
 //   mobile menu open menu
-  function toggleDiv() {
+function toggleDiv() {
     var div = document.getElementById('hidden-links');
     div.classList.toggle('closed');
     div.classList.toggle('open');
-  };
+};
+
+
+
+
+
+
+
+   
